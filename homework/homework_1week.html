@@ -48,11 +48,17 @@
           margin: auto;
         }
 
+        /* 부트스트랩 버튼에 클래스명 지정하고, 중앙정렬 */
         .button1 {
           display: flex;
           flex-direction: row;
           align-items: center;
           justify-content : center;
+        }
+
+        /* 부트스트랩 버튼에 display block 설정하고, 클래스명 지정 후, 넓이 설정 */
+        .mybtn{
+          width:50%;
         }
 
     </style>
@@ -116,9 +122,10 @@
     </div>
     
     <!-- 주문하기 버튼 영역. bootstrap 사용 -->
+    <!-- display block 설정해서 풀어줌 -->
 
     <div class="button1">
-      <button type="button" class="btn btn-primary btn-lg">주문하기</button>
+      <button type="button" class="btn btn-primary btn-lg mybtn" display="block">주문하기</button>
     </div>
 
 
